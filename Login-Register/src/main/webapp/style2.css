@@ -1,0 +1,66 @@
+/* General styling for the container */
+.container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Styling for the form headers */
+.container h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styling for form labels */
+.container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+/* Styling for form inputs */
+.container input[type="text"],
+.container input[type="password"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Styling for the submit button */
+.container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #45a049;
+}
+
+/* Styling for error messages */
+.container p {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.container p a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.container p a:hover {
+    text-decoration: underline;
+}
